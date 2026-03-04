@@ -2,12 +2,15 @@
 # Environment: production | development | testing
 
 bot:
-  token: "$}"
+  token: "${DISCORD_BOT_TOKEN}"
   prefix: "/"  # Slash commands only
   status: "online"
   activity: "Managing your community"
   activity_type: "watching"  # playing, watching, listening, streaming
 
+database:
+  mongodb_uri: "${MONGODB_URI}"
+  database_name: "Logiq"
   pool_size: 10
 
 logging:
