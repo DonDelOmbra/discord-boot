@@ -1,11 +1,16 @@
 # Minimal config example: enable core moderation/tickets/perms/vcmod/staffapp only
 
 bot:
-  token:
+  token: "${DISCORD_BOT_TOKEN}"
+  prefix: "/"
   status: "online"
   activity: "Managing your community"
   activity_type: "watching"
 
+database:
+  mongodb_uri: "${MONGODB_URI}"
+  database_name: "Logiq"
+  pool_size: 10
 
 logging:
   level: "INFO"
