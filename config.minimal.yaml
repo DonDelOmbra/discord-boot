@@ -1,16 +1,11 @@
 # Minimal config example: enable core moderation/tickets/perms/vcmod/staffapp only
 
 bot:
-  token: "MTQ3ODgwOTMxMDM3MjAzNjY1OQ.GhfIND.fwaTJCP_fp__PcRPlKhkoWyUF2wljsxoIrcyUE"
-  prefix: "/"
+  token:
   status: "online"
   activity: "Managing your community"
   activity_type: "watching"
 
-database:
-  mongodb_uri: "mongodb+srv://tahaaminebihi72_db_user:<db_password>@cpmrpmorocco.v2czghp.mongodb.net/?appName=CPMRPMOROCCO"
-  database_name: "Logiq"
-  pool_size: 10
 
 logging:
   level: "INFO"
