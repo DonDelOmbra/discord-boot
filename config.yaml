@@ -8,9 +8,6 @@ bot:
   activity: "Managing your community"
   activity_type: "watching"  # playing, watching, listening, streaming
 
-database:
-  mongodb_uri: "${mongodb+srv://tahaaminebihi72_db_user:<db_password>@cpmrpmorocco.v2czghp.mongodb.net/?appName=CPMRPMOROCCO}"
-  database_name: "Logiq"
   pool_size: 10
 
 logging:
