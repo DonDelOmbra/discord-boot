@@ -2,7 +2,7 @@
 # Environment: production | development | testing
 
 bot:
-  token: "${MTQ3ODgwOTMxMDM3MjAzNjY1OQ.GhfIND.fwaTJCP_fp__PcRPlKhkoWyUF2wljsxoIrcyUE}"
+  token: "$}"
   prefix: "/"  # Slash commands only
   status: "online"
   activity: "Managing your community"
